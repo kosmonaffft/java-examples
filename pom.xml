@@ -17,6 +17,7 @@
     <name>demo</name>
     <description>Demo project for Spring Boot</description>
 
+    <!-- I'm comment -->
     <properties>
         <java.version>17</java.version>
     </properties>
