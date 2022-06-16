@@ -1,0 +1,36 @@
+/* main */
+
+body {
+    margin: unset;
+    background-color: cornsilk;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: min-content auto;
+}
+
+header {
+    background-color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+}
+
+nav {
+    background-color: aqua;
+    grid-column: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+main {
+    background-color: aquamarine;
+    grid-column: 2;
+    grid-row: 2;
+    padding: 2em;
+}
+
+td:hover {
+    background-color: aliceblue;
+}
