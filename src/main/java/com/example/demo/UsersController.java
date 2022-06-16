@@ -19,14 +19,17 @@ public class UsersController {
         put("1", new HashMap<String, String>() {{
             put("firstname", "Anton");
             put("lastname", "Ivanov");
+            put("password", "$2a$10$t4CZSI38iGMSbkfK9nQwK..hB8Tq3SgRNKkHfVADc37A6fYBHc86S");
         }});
         put("2", new HashMap<String, String>() {{
             put("firstname", "Ivan");
             put("lastname", "Kuznetsov");
+            put("password", "$2a$10$c6t8HvK4s9UIqpZph3rECO6vPro4wlNyFVSkp4cyR..ipc5T7JLCG");
         }});
         put("42", new HashMap<String, String>() {{
             put("firstname", "Petrov");
             put("lastname", "Petr");
+            put("password", "$2a$10$trZJFP6u1z9VGwDcrdMCg.vJTBwLfHUAQ4Xv4JqS47L4VjFc2BIWa");
         }});
     }};
 
